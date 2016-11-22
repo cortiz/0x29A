@@ -7,22 +7,22 @@
       url: /install/backup/
 
     - text: Disk Partion
-      url: /install/diskpart
+      url: /install/diskpart/
 
     - text: LVM on Luks
-      url: /install/lvmonluks
+      url: /install/lvmonluks/
 
     - text: Arch Base Install
-      url: /install/abi
+      url: /install/abi/
 
-    - text: Config
-      url: /install/config
+    - text: Base System Config
+      url: /install/config/
 
     - text: Uefi & Boot
-      url: /install/Uefi
+      url: /install/Uefi/
 
     - text: Xorg and Deskenv
-      url: /install/xdeskenv
+      url: /install/xdeskenv/
 
 - text: Configuration
   url: /config/
@@ -33,5 +33,17 @@
 - text: Software
   url: /software/
   subitems:
+    - text: Base tools
+      url: /software/base/
+
     - text: Java env
       url: /software/java/
+
+    - text: Web
+      url: /software/web/
+
+    - text: Other Utils
+      url: /software/other/
+
+    - text: Alternatives
+      url: /software/alts/
