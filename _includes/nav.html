@@ -1,0 +1,13 @@
+{% assign navurl = page.url | remove: 'index.html' %}
+
+{% for item in include.nav %}
+	<li>
+         <a class="sidebar-nav-item{% if page.url == item.url %} active{% endif %}" href="{{ item.url }}">{{item.text}}</a>
+
+	{% if item.subitems%}
+    <ul>
+		{% include nav.html nav=item.subitems %}
+    </ul>
+	{% endif %}
+    	</li>
+{% endfor %}

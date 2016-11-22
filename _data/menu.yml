@@ -1,0 +1,37 @@
+- text: Home
+  url: /
+- text: Installation
+  url: /install/
+  subitems:
+    - text: Backup
+      url: /install/backup/
+
+    - text: Disk Partion
+      url: /install/diskpart
+
+    - text: LVM on Luks
+      url: /install/lvmonluks
+
+    - text: Arch Base Install
+      url: /install/abi
+
+    - text: Config
+      url: /install/config
+
+    - text: Uefi & Boot
+      url: /install/Uefi
+
+    - text: Xorg and Deskenv
+      url: /install/xdeskenv
+
+- text: Configuration
+  url: /config/
+  subitems:
+    - text: Power management
+      url: /config/tlp/
+
+- text: Software
+  url: /software/
+  subitems:
+    - text: Java env
+      url: /software/java/

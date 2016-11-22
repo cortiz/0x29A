@@ -1,6 +1,6 @@
 # Site settings
 title: "Linux as everyday develop station"
-email: ""
+email: "https://cortiz.github.io/0x29A/"
 description: "Scripts,Apps,Alternatives,Tutorials and how to's on making Linux the default OS for develop awesome apps"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://github.io/cortiz/0x29A" # the base hostname & protocol for your site
@@ -8,3 +8,9 @@ twitter_username: ""
 github_username: "cortiz"
 # Build settings
 markdown: kramdown
+author:
+  name: "Carlos Ortiz"
+  url: ""
+  email: ""
+permalink: pretty
+relative_permalinks: true
