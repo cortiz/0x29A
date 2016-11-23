@@ -1,49 +1,49 @@
 - text: Home
-  url: /
+  url: /0x29A/
 - text: Installation
-  url: /install/
+  url: /0x29A/install/
   subitems:
     - text: Backup
-      url: /install/backup/
+      url: /0x29A/install/backup/
 
     - text: Disk Partion
-      url: /install/diskpart/
+      url: install/diskpart/
 
     - text: LVM on Luks
-      url: /install/lvmonluks/
+      url: /0x29A/install/lvmonluks/
 
     - text: Arch Base Install
-      url: /install/abi/
+      url: /0x29A/install/abi/
 
     - text: Base System Config
-      url: /install/config/
+      url: /0x29A/install/config/
 
     - text: Uefi & Boot
-      url: /install/Uefi/
+      url: /0x29A/install/Uefi/
 
     - text: Xorg and Deskenv
-      url: /install/xdeskenv/
+      url: /0x29A/install/xdeskenv/
 
 - text: Configuration
-  url: /config/
+  url: /0x29A/config/
   subitems:
     - text: Power management
-      url: /config/tlp/
+      url: /0x29A/config/tlp/
 
 - text: Software
-  url: /software/
+  url: /0x29A/software/
   subitems:
     - text: Base tools
-      url: /software/base/
+      url: /0x29A/software/base/
 
     - text: Java env
-      url: /software/java/
+      url: /0x29A/software/java/
 
     - text: Web
-      url: /software/web/
+      url: /0x29A/software/web/
 
     - text: Other Utils
-      url: /software/other/
+      url: /0x29A/software/other/
 
     - text: Alternatives
-      url: /software/alts/
+      url: /0x29A/software/alts/
